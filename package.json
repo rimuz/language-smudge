@@ -1,0 +1,18 @@
+{
+  "name": "language-smudge",
+  "version": "0.0.0",
+  "description": "Smudge language support for Atom",
+  "engines": {
+    "atom": "*"
+  },
+
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "license": "Apache 2.0"
+}
