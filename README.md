@@ -1,8 +1,8 @@
 # Package `language-smudge`
-**Smudge** Programming Language **highlighting syntax** support for Atom.
+**Smudge** Programming Language **syntax highlighting** support for Atom.
 Here's an example:
 
-![Highlighting syntax example](image.png)
+![Syntax highlighting example](image.png)
 
 ## See Also
 The main [Smudge project](https://github.com/smudgelang/smudge).
