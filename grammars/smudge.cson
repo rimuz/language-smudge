@@ -49,8 +49,8 @@
     },
 
     {
-        'match': '\\b(box|case|catch|default|delete|\
-                    do|else|enum|for|if|new|hidden|\
+        'match': '\\b(box|case|catch|default|\
+                    do|else|enum|for|if|hidden|\
                     static|switch|sync|try|while)\\b'
         'name': 'keyword.other.smudge'
     },
