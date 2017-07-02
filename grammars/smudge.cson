@@ -117,7 +117,7 @@
     },
 
     {
-        'match': '\\b(class)\\s+([A-Za-z_$][A-Za-z_$0-9]*)\\s*(\\(([A-Za-z_$][A-Za-z_$0-9]*)\\))?\\s*{'
+        'match': '\\b(class)\\s+([A-Za-z_$][A-Za-z_$0-9]*)\\s*(\\s*\\((([^\\(\\)]*\\([^\\(\\)]\\))*|[^\\(\\)]*)\\))?'
         'captures':
             '1':
                 'name': 'storage.type.smudge'
