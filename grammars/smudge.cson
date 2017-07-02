@@ -44,7 +44,7 @@
     },
 
     {
-        'match': '\\b(false|true|(null(?!\\s*\\()))\\b'
+        'match': '\\b(this|super|false|true|(null(?!\\s*\\()))\\b'
         'name': 'constant.language.smudge'
     },
 
@@ -56,7 +56,7 @@
     },
 
     {
-        'match': '\\b(this|super)\\b'
+        'match': '\\b()\\b'
         'name': 'variable.language.smudge'
     },
 
