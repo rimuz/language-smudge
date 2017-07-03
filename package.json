@@ -1,6 +1,6 @@
 {
   "name": "language-smudge",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Smudge language support for Atom",
   "engines": {
     "atom": "*"
