@@ -56,11 +56,6 @@
     },
 
     {
-        'match': '\\b()\\b'
-        'name': 'variable.language.smudge'
-    },
-
-    {
         'match': '\\b(break|continue|return|throw)\\b'
         'name': 'keyword.control.smudge'
     },
