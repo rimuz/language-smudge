@@ -44,8 +44,23 @@
     },
 
     {
-        'match': '\\b(this|super|false|true|(null(?!\\s*\\()))\\b'
+        'match': '\\b(false|true|null)\\b'
         'name': 'constant.language.smudge'
+    },
+
+    {
+        'match': '\\bthis\\b'
+        'name': 'variable.language.smudge'
+    },
+
+    {
+        'match': '\\b(super)(\\s*\\((([^\\(\\)]*\\([^\\(\\)]\\))*|[^\\(\\)]*)\\))?'
+        'captures':
+            '1':
+                'name': 'variable.language.smudge'
+            '3':
+                'name': 'entity.other.inherited-class.smudge'
+        'name': 'meta.super-call.smudge'
     },
 
     {
@@ -69,7 +84,7 @@
                 'name': 'entity.name.function.smudge'
             '4':
                 'name': 'variable.parameter.smudge'
-            'name': 'meta.function.smudge'
+        'name': 'meta.function.smudge'
     },
 
     {
@@ -107,7 +122,7 @@
         'match': '\\b([A-Za-z_$][A-Za-z_$0-9]*)\\s*(?=\\(.*\\))'
         'captures':
             '1':
-                'name': 'entity.name.function'
+                'name': 'entity.name.function.smudge'
         'name': 'meta.function.smudge'
     },
 
@@ -117,9 +132,9 @@
             '1':
                 'name': 'storage.type.smudge'
             '2':
-                'name': 'entity.name.type'
+                'name': 'entity.name.type.smudge'
             '4':
-                'name': 'entity.other.inherited-class'
+                'name': 'entity.other.inherited-class.smudge'
         'name': 'meta.class.smudge'
     }
 
