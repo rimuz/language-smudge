@@ -109,13 +109,8 @@
     },
 
     {
-        'match': '\\b(import)\\s+([A-Za-z_$][A-Za-z_$0-9]*\\s*\\.?\\s*)+(=)\\s*([A-Za-z_$][A-Za-z_$0-9]*)\\b'
-        'captures':
-            '1':
-                'name': 'storage.type.smudge'
-            '3':
-                'name': 'keyword.operator.smudge'
-        'name': 'meta.import.smudge'
+        'match': '\\bimport\\b'
+        'name': 'storage.type.smudge'
     },
 
     {
